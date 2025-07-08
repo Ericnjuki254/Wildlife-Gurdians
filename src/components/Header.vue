@@ -1,5 +1,5 @@
 <template>
-    <header class="z-0 bg-green-500">
+    <header class="z-0 bg-dark/90 bg-green-500 backdrop-blur-sm ">
         <div class="max-w-screen-xl mx-auto px-4 flex justify-between items-center">
             <!-- Logo -->
                 <a href="/" class="flex items-center space-x-2">
