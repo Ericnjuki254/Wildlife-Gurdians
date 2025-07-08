@@ -23,17 +23,6 @@
         </nav>
         </div>
     </section>
-
-        <!-- Stats Section -->
-         <section id="stats" class="py-20">
-            <div class="mx-auto px-4">
-                <h2 class="text-4xl font-bold text-dark mb-5 text-center text-green-900 relative">Wildlife In Crisis</h2>
-                <div class="w-16 h-1 bg-orange-500 mx-auto mb-5"></div>
-                <p class="section-subtitle text-center">Our planet's biodiversity is under threat. Here are some alarming statistics</p>
-            <div>
-            </div>
-            </div>
-         </section>
 </template>
 
 <script setup>
