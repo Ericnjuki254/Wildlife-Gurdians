@@ -1,9 +1,10 @@
 <template>
     <section id="stats" class="py-20 bg-white">
        <div class="container mx-auto px-4">
-           <header data-aos="fade-up" data-aos-delay="500" class="text-4xl font-bold text-dark mb-5 text-center text-green-900 relative">Wildlife In Crisis
-           <div class="w-16 h-1 bg-orange-500 mx-auto mb-5"></div>
-           <p class="section-subtitle font-semibold text-2xl text-center text-gray-600">Our planet's biodiversity is und threat. Here are some alarming statistics</p>
+            <header data-aos="fade-up" data-aos-delay="500">
+                <h2 class="text-4xl font-bold text-dark mb-5 text-center text-green-900 relative">Wildlife In Crisis</h2>
+                <div class="w-16 h-1 bg-orange-500 mx-auto mb-5"></div>
+                <p class="section-subtitle text-center text-xl mb-5 text-gray-600 ">Our planet's biodiversity is under threat. Here are some alarming statistics:</p>
            </header>
            <!-- Stats Grid -->
             <ul
