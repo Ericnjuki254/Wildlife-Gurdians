@@ -4,7 +4,8 @@
             <header data-aos="fade-up" data-aos-delay="500">
                 <h2 class="text-4xl font-bold text-dark mb-5 text-center text-green-900 relative">Wildlife In Crisis</h2>
                 <div class="w-16 h-1 bg-orange-500 mx-auto mb-5"></div>
-                <p class="section-subtitle text-center text-xl mb-5 text-gray-600 ">Our planet's biodiversity is under threat. Here are some alarming statistics:</p>
+                <p class="section-subtitle text-center text-xl mb-5 text-gray-600 ">Our planet's biodiversity is under threat. 
+                  <br />Here are some alarming statistics:</p>
            </header>
            <!-- Stats Grid -->
             <ul
