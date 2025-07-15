@@ -17,9 +17,9 @@
         <nav data-aos="fade-up" data-aos-delay="600"
             class="flex flex-row justify-center gap-5 mb-12">
         <a href="#cta"
-            class="bg-emerald-500 hover:bg-emerald-700 text-white px-8 py-3 rounded-full transition shadow-lg">Get Involved</a>
+            class="bg-emerald-500 hover:bg-emerald-700 text-white px-8 py-3 rounded-full transition shadow-lg transform hover:-translate-y-1 duration-300">Get Involved</a>
         <a href="#conversation"
-            class="bg-orange-500 hover:bg-orange-700 text-white px-8 py-3 rounded-full transition shadow-lg">Learn More</a>
+            class="bg-orange-500 hover:bg-orange-700 text-white px-8 py-3 rounded-full transition shadow-lg transform hover:-translate-y-1 duration-300">Learn More</a>
         </nav>
         </div>
     </section>

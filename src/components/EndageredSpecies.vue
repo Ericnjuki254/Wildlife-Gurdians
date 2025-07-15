@@ -15,7 +15,7 @@
             <div class="p-6">
               <h3 class="text-xl font-bold text-primary-dark mb-2">{{ animal.name }}</h3>
                 <span
-                    class="species-status flex items-center justify-center rounded-full bg-pink-200 text-pink-700 w-40 h-10 mx-auto mb-4 text-base font-semibold"
+                    class="inline-block px-3 py-1 rounded-full text-xs bg-pink-200 text-pink-700 mb-2 font-semibold"
                     :class="'status-' + animal.status"
                 >
                      {{ animal.statusLabel }}
@@ -62,7 +62,7 @@ const animal = ref([
     {
         name: "Mountain Gorilla",
         status:"critical",
-        statusLabel:"Critically Endagered",
+        statusLabel:"Endagered",
         image:Gorilla,
         description: "Conservation efforts have helped increase their numbers to just over 1,000 individuals."
     },
