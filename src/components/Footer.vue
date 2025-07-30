@@ -6,7 +6,7 @@
                  <section class="lg:col-span-1">
                     <h2 class="text-2xl font-bold">Wildlife Guardians</h2>
                     <div class="w-16 h-0.5 bg-orange-500 mb-3"></div>
-                    <p class="text-gray-400 mb-6">Dedicated to preserving Earth's biodiversity through research, <br /> conservation, and education since 1995.</p>
+                    <p class="mb-6">Dedicated to preserving Earth's biodiversity through research, <br /> conservation, and education since 1995.</p>
                     <nav aria-label="Social Media Links">
                         <ul class="flex space-x-4">
                             <li v-for="(item,index) in socialLinks" :key="index">
@@ -22,7 +22,26 @@
                   <section>
                     <h3 class="text-xl font-bold">Quick Links</h3>
                     <div class="w-16 h-0.5 bg-orange-500 mb-3"></div>
+                    <nav aria-label="Quick Links">
+                        <ul class="space-y-3">
+                            <li v-for="(item,index) in quickLinks" :key="index">
+                                <span class="text-orange-600 mr-2">&gt;</span>
+                                <a :href="item.href" class="hover:text-orange-600 transition">{{ item.text }}</a>
+                            </li>
+                        </ul>
+                    </nav>
                   </section>
+                  <!-- Contact Info -->
+                   <address>
+                        <h3 class="text-xl font-bold">Contact Us</h3>
+                        <div class="w-16 h-0.5 bg-orange-500 mb-3"></div>
+                            <ul class="space-y-4">
+                                <li v-for="(item,index) in contactInfo" :key="index" class="flex items-start">
+                                    <img :src="item.icon" class="text-orange-600 text-xl mt-1 mr-4 w-6 h-6 flex-shrink-0"/>
+                                    <p class="hover:text-orange-600 transition">{{ item.text }}</p>
+                                </li>
+                            </ul>
+                   </address>
             </div>
         </div>
     </footer>
@@ -35,6 +54,9 @@ import Instagram from '../assets/icons/Instagram.png'
 import Linkedin from '../assets/icons/Linkedin.png'
 import Youtube from '../assets/icons/Youtube.png'
 import X from '../assets/icons/X.png'
+import location from '../assets/icons/Location.png'
+import Phone from '../assets/icons/Phone.png'
+import Mail from '../assets/icons/Mail.png'
 
 const socialLinks=ref([
   { name: 'Facebook', url: 'https://facebook.com', icon: Facebook },
@@ -52,4 +74,20 @@ const quickLinks = ref([
     {text:'Take Action',href:'#Take Action'},
 ]);
 
+const contactInfo = ref([
+    {
+        icon: location,
+        text:'123 Conservation Way, Nakuru'
+    },
+
+    {
+        icon: Phone,
+        text:'+2548656256'
+    },
+
+    {
+        icon: Mail,
+        text:'contact@wildlifeguardians.org'
+    },
+]);
 </script>
